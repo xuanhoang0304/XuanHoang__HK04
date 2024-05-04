@@ -1,0 +1,59 @@
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    
+}
+html {
+    font-size: 62.5%;
+}
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+input,
+select,
+textarea {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+}
+table,
+tr,
+td,
+th {
+    border: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+ul,
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}

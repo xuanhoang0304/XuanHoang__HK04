@@ -1,0 +1,25 @@
+@import "./variable";
+@import "./mixin";
+body {
+    font-family: $pmr-font;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.section__heading {
+    @include txt(4rem, 700, 60px, $heading-text-cl);
+    letter-spacing: -0.4px;
+}
+.section__title {
+    @include txt(2.4rem, 500, 36px, $pmr-text-cl);
+}
+.section__desc {
+    @include txt(1.8rem, 400, 32px, $pmr-text-cl);
+    &--small {
+        @include txt(1.6rem, 400, 24px, $pmr-text-cl);
+    }
+}
