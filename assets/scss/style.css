@@ -1792,7 +1792,7 @@ body {
     max-width: calc(100% - 48px);
   }
   #home .header {
-    padding: 30px 24px;
+    padding: 12px 24px;
   }
   #home .header .header__right .header__action .header__noti {
     width: 18px;
